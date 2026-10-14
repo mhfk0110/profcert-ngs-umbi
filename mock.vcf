@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##source=MockVariantCaller
+##reference=mock_reference.fa
+##contig=<ID=chr1,length=1000000>
+##contig=<ID=chr2,length=800000>
+##FILTER=<ID=LowQual,Description="Low quality variant">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Alternate allele frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Sample read depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for reference and alternate alleles">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample01
+chr1	7021	var001	A	C	45	PASS	DP=32;AF=0.50	GT:DP:AD	0/1:32:16,16
+chr1	7050	var002	G	T	18	LowQual	DP=12;AF=0.17	GT:DP:AD	0/1:12:10,2
+chr1	8120	var003	C	CT	60	PASS	DP=40;AF=0.48	GT:DP:AD	0/1:40:21,19
+chr2	5025	var004	G	GA	38	PASS	DP=24;AF=0.42	GT:DP:AD	0/1:24:14,10
+chr2	5200	var005	T	C	55	PASS	DP=36;AF=1.00	GT:DP:AD	1/1:36:0,36
