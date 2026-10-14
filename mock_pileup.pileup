@@ -1,12 +1,12 @@
 # Synthetic mpileup-style file generated for demonstration; reference bases are illustrative.
 # CHROM  POS   REF  DEPTH  BASES                         QUALITIES
-chr1     1001  A    1      .                             I
-chr1     1002  C    3      ...                           III
-chr1     1003  G    5      .....                         IIIII
-chr1     1004  T    8      ........                      IIIIIIII
-chr1     1005  A    10     ..........                    IIIIIIIIII
-chr1     1006  C    12     ...........C                  IIIIIIIIIIII
-chr1     1007  G    15     ...............               IIIIIIIIIIIIIII
-chr1     1008  T    20     ....................          IIIIIIIIIIIIIIIIIIII
-chr1     1009  A    25     .........................     IIIIIIIIIIIIIIIIIIIIIIIII
-chr1     1010  C    30     .............................. IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+chr1	1001	A	1	.	I
+chr1	1002	C	3	..T	II!
+chr1	1003	G	5	....A	III5I
+chr1	1004	T	8	......C.	IIII!III
+chr1	1005	A	10	........G.	IIIIII5III
+chr1	1006	C	12	.........T..	IIIIIIII!III
+chr1	1007	G	15	...........A...	IIIIII5IIIIIIII
+chr1	1008	T	20	.............C......	IIIIIIIIIIII!IIIIIII
+chr1	1009	A	25	....................G....	IIIIIIIIIIIIIIIIIIII5IIII
+chr1	1010	C	30	..........................T...	IIIIIIIIIIIIIIIIIIIIIIIIII!!!!
